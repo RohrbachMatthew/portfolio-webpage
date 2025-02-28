@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px; /* Smaller font size */
+    margin: 8px 1px; /* Reduced margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-size:15px;
+    display: inline;
+    margin: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 32px;
+    margin-bottom: 50px; /* Add bottom margin to create space for the footer */
+}
+
+section {
+    margin-bottom: 1rem;
+}
+#contact {
+    padding-bottom: 1px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
