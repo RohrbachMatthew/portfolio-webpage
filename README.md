@@ -10,16 +10,21 @@ This site showcases my skills, projects, and experiences. Initially, I started b
 ## **Webste Structure**
 
 - [Home](https://rohrbachmatthew.github.io/portfolio-webpage/): An introduction to who I am and what I do.
+
 - [About Me](https://rohrbachmatthew.github.io/portfolio-webpage/about_me.html): A brief overview of my background, skills, and interests.
+
 - [Projects](https://rohrbachmatthew.github.io/portfolio-webpage/projects.html): A showcase of my projects, including descriptions, technologies used, and links to the code repositories.
+
 - [Contact](https://rohrbachmatthew.github.io/portfolio-webpage/contact_me.html): Information on how to get in touch with me.
-- [Resume](https://rohrbachmatthew.github.io/portfolio-webpage/resume.html): A readable and downloadable version of my resume.
+
+- [Resume](https://rohrbachmatthew.github.io/portfolio-webpage/resume.html): A readable and downloadable **general** version of my resume.
 
 <br>
 
 ## **Technologies Used**
 
 - **HTML** & **CSS:** For the structure and styling of the website.
+
 - **Visual Studio Code:** My preferred code editor for making updates and expansions.
 
 <br>
@@ -27,14 +32,16 @@ This site showcases my skills, projects, and experiences. Initially, I started b
 ## **Projects**
 
 - Project1: A brief description of the project, the technologies used, and the purpose it serves.
+
 - Project2: describe project 2
 
 <br>
 
 ## **Purpose**
 
-This portfolio is not just a demonstration of my web development skills but also a platform to present my work and achievements to potential employers.  
-This project showcases my ability to adapt to new technologies and demonstrates my proficiency in basic web design.
+- This portfolio is not just a demonstration of my web development skills but also a platform to present my work and achievements to potential employers.
+
+- This project showcases my ability to adapt to new technologies and demonstrates my proficiency in basic web design.
 
 <br>
 
