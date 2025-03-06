@@ -62,6 +62,10 @@ main {
     height: auto;
     box-sizing: border-box;
 
+.image-content img {
+    width: 100%;
+    height: auto;
+
 section {
     margin-bottom: 1rem;
 }
