@@ -3,9 +3,7 @@
 Welcome to my portfolio website!  
 This site showcases my skills, projects, and experiences. Initially, I started building this site using Python and Flask, but I transitioned to using pure HTML and CSS to host it on GitHub Pages. I now use Visual Studio Code to update and expand the site.
 
-<br>
-
-## [_Click Here To View My Portfolio_](https://rohrbachmatthew.github.io/portfolio-webpage/)
+### [_Click Here To View My Portfolio_](https://rohrbachmatthew.github.io/portfolio-webpage/)
 
 <br>
 
