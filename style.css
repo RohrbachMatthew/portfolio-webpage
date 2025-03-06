@@ -103,7 +103,7 @@ footer {
     .image-content img {
         width: 100%;
         height: auto;
-        max-height: 50px;
-        object-fit: cover;
+        max-height: 150px;
+        object-fit: contain;
     }
 }
