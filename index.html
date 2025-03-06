@@ -11,7 +11,7 @@
       <h1>My Portfolio</h1>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact_me.html">Contact Me</a></li>
@@ -20,17 +20,35 @@
       </nav>
     </header>
     <main>
-      <section id="home">
-        <h2>Home</h2>
-        <p>
-          Welcome to my portfolio! My name is Matthew Rohrbach, I am a data
-          enthusiast with skills in Python, data analysis, and databases.
-        </p>
-      </section>
-      <section id="resume">
-        <h2>Resume</h2>
-        <p>Here is a brief overview of my education, experience, and skills.</p>
-        <!-- Add your resume details here -->
+      <!-- Added new section with class "home-skills" -->
+      <section id="home-skills">
+        <div class="text-content">
+          <section id="home">
+            <h2>Home</h2>
+            <p>
+              Welcome to my portfolio! My name is Matthew Rohrbach, I am a data
+              enthusiast with skills in Python, data analysis, and databases.
+              <br />
+              <br />
+              With a diverse background in various industries and a recent focus
+              on computer science, I'm dedicated to building a career in
+              programming and data management.
+            </p>
+          </section>
+          <section id="skills">
+            <h2>My Skills</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+              beatae unde ullam doloribus consectetur vel maxime at in, ducimus
+              aliquid voluptatibus excepturi doloremque eaque quibusdam ipsa
+              odio quaerat dicta. Sit.
+            </p>
+          </section>
+        </div>
+        <!-- Added new div for image content -->
+        <div class="image-content">
+          <img src="home_skills_section.jpg" alt="Background Image" />
+        </div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
@@ -57,7 +75,7 @@
           >.
         </p>
       </section>
-      <p><a href="/">Back to Home</a></p>
+      <p><a href="index.html">Back to Home</a></p>
     </main>
     <footer>
       <p>&copy; 2025 Matthew Rohrbach. All rights reserved.</p>

@@ -38,6 +38,22 @@ main {
     margin-bottom: 50px; /* Add bottom margin to create space for the footer */
 }
 
+/* Added new styles for home-skills section */
+#home-skills {
+    display: flex;
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px;
+    margin-bottom: 1rem;
+
+/* Added new styles for text-content div */
+.text-content {
+    width: 60%;
+    padding-right: 20px;
+
+/* Added new styles for image-content div */
+.image-content {
+    width: 20%;
+
 section {
     margin-bottom: 1rem;
 }
