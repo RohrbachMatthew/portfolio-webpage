@@ -42,11 +42,12 @@ main {
 #home-skills {
     display: flex;
     background-color: #f0f0f0; /* Light grey background */
-    padding: 20px;
+    padding: 50px;
     margin-bottom: 1rem;
     background-image: url('home_skills_background.jpg');
     background-size: cover;
     background-position: center;
+    min-height: 400px;
 
 /* Added new styles for text-content div */
 .text-content {
