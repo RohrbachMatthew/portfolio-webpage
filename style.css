@@ -44,11 +44,14 @@ main {
     background-color: #f0f0f0; /* Light grey background */
     padding: 20px;
     margin-bottom: 1rem;
+    background-image: url('home_skills_background.jpg');
+    background-size: cover;
+    background-position: center;
 
 /* Added new styles for text-content div */
 .text-content {
     width: 60%;
-    padding-right: 20px;
+    padding-right: 30px;
 
 /* Added new styles for image-content div */
 .image-content {
