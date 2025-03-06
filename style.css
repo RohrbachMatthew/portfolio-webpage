@@ -39,7 +39,7 @@ main {
     margin-bottom: 50px; /* Add bottom margin to create space for the footer */
 }
 
-/* Added new styles for home-skills section */
+/* Updated styles for home-skills section */
 #home-skills {
     display: flex;
     background-color: #f0f0f0; 
@@ -62,6 +62,9 @@ main {
     width: 25%;
     height: auto;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-content img {
@@ -71,9 +74,10 @@ main {
 
 /* Specific styles for 1fake_picture.jpg */
 .image-content img[src="1fake_picture.jpg"] {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Add rounded edges to the specific image */
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height to make it a square */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
 section {
@@ -97,13 +101,17 @@ footer {
 /* Media query for mobile view */
 @media (max-width: 768px) {
     #home-skills {
-        flex-direction: column;
-        padding: 20px; 
+        flex-direction: row; /* Keep elements side by side */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+        padding: 20px; /* Adjust padding for mobile view */
     }
 
     .image-content {
         width: 100%;
         padding-bottom: 20px; /* Add some space below the image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .text-content {
@@ -112,16 +120,9 @@ footer {
     }
 
     .image-content img {
-        width: 100%;
-        height: auto;
-        max-height: 150px;
-        object-fit: contain;
-    }
-
-    /* Specific styles for 1fake_picture.jpg on mobile */
-    .image-content img[src="1fake_picture.jpg"] {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%; /* Add rounded edges to the specific image */
+        width: 150px; /* Set a fixed width */
+        height: 150px; /* Set a fixed height to make it a square */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+        border-radius: 50%; /* Make the image a circle */
     }
 }
