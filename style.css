@@ -50,6 +50,7 @@ main {
     background-position: center;
     min-height: 400px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .text-content {
