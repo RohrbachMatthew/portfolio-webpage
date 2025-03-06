@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -13,8 +14,8 @@ header {
 }
 
 header h1 {
-    font-size: 24px; /* Smaller font size */
-    margin: 8px 1px; /* Reduced margin */
+    font-size: 24px; 
+    margin: 8px 1px; 
 }
 
 nav ul {
@@ -41,7 +42,7 @@ main {
 /* Added new styles for home-skills section */
 #home-skills {
     display: flex;
-    background-color: #f0f0f0; /* Light grey background */
+    background-color: #f0f0f0; 
     padding: 50px;
     margin-bottom: 1rem;
     background-image: url('home_skills_background.jpg');
@@ -50,13 +51,13 @@ main {
     min-height: 400px;
     box-sizing: border-box;
 
-/* Added new styles for text-content div */
+
 .text-content {
     width: 75%;
     padding-right: 30px;
     box-sizing: border-box;
 
-/* Added new styles for image-content div */
+
 .image-content {
     width: 25%;
     height: auto;
@@ -85,8 +86,8 @@ footer {
 /* Media query for mobile view */
 @media (max-width: 768px) {
     #home-skills {
-        flex-direction: column; /* Stack elements vertically */
-        padding: 20px; /* Adjust padding for mobile view */
+        flex-direction: column;
+        padding: 20px; 
     }
 
     .image-content {
