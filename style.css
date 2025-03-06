@@ -57,6 +57,7 @@ main {
 /* Added new styles for image-content div */
 .image-content {
     width: 20%;
+    height: auto;
 
 section {
     margin-bottom: 1rem;
@@ -73,3 +74,20 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    #home-skills {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px; /* Adjust padding for mobile view */
+    }
+
+    .image-content {
+        width: 100%;
+        padding-bottom: 20px; /* Add some space below the image */
+    }
+
+    .text-content {
+        width: 100%;
+        padding-right: 0;
+    }
