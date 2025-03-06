@@ -51,4 +51,4 @@ This site showcases my skills, projects, and experiences. Initially, I started b
 
 ## Contact Me
 
-Feel free to reach out to me via the [contact page](https://rohrbachmatthew.github.io/portfolio-webpage/contact_me.html) on my website or [Email Me](mailto:rohrbachmatthew91@gmail.com)
+Feel free to reach out to me via the [contact page](https://rohrbachmatthew.github.io/portfolio-webpage/contact_me.html) on my website or [Email Me](mailto:matthewrohrbach91@gmail.com)
