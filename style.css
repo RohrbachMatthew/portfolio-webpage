@@ -156,6 +156,17 @@ footer {
 
 
 @media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        font-size: 18px; /* Reduce font size */
+        margin: 5px 10px; /* Adjust margin */
+    }
+
+
     #home-skills {
         flex-direction: row;
         flex-wrap: wrap;
