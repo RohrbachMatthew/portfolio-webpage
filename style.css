@@ -3,7 +3,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
+    background-color: black;
+    color: whitesmoke;
 }
 
 header {
@@ -11,44 +13,60 @@ header {
     color: #fff;
     padding: 1px;
     text-align: center;
+    background-image: url('nav_banner_home.jpg'); 
+    background-size: cover;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header h1 {
-    font-size: 24px; 
-    margin: 8px 1px; 
+nav {
+    flex-grow: 1;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul li {
-    font-size: 15px;
-    display: inline;
-    margin: 30px;
+    font-size:25px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.4s ease; 
+}
+
+nav ul li a:hover {
+    color: rgb(60, 156, 207); /* Change to the highlight color you prefer */
 }
 
 main {
-    padding: 32px;
-    margin-bottom: 50px; /* Add bottom margin to create space for the footer */
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
-/* Updated styles for home-skills section */
 #home-skills {
     display: flex;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     padding: 50px;
-    margin-bottom: 1rem;
-    background-image: url('home_skills_background.jpg');
+    border: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border: 2px solid #ccc;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    background-image: url('home_skills_background1.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    min-height: 200px;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
@@ -57,6 +75,7 @@ main {
     width: 75%;
     padding-right: 30px;
     box-sizing: border-box;
+    color: whitesmoke;
 }
 
 .image-content {
@@ -73,20 +92,56 @@ main {
     height: auto;
 }
 
-/* Specific styles for 1fake_picture.jpg */
 .image-content img[src="1fake_picture.jpg"] {
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height to make it a square */
-    border-radius: 50%; /* Make the image a circle */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 section {
     margin-bottom: 1rem;
 }
 
+#projects {
+    background-image: url('projects_background_home.jpg'); /* Replace with your background image URL */
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding inside the box */
+    border: 2px solid #ccc; /* Add a border around the box */
+    border-radius: 35px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-bottom: 10px; /* Add some space below the section */
+    color: whitesmoke;
+}
+
+.project1 {
+    color: whitesmoke;
+}
+
+.project2 {
+    color: whitesmoke;
+}
+
+.project3 {
+    color: whitesmoke;
+}
+
 #contact {
+    background-image:  url('home_skills_background.jpg'); /* Replace with your background image URL */
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding inside the box */
+    border: 2px solid #ccc; /* Add a border around the box */
+    border-radius: 15px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-bottom: 1rem; /* Add some space below the section */
     padding-bottom: 1px;
+    color: black;
+}
+.back_home {
+    color: blue;
+    text-align: center;
 }
 
 footer {
@@ -99,17 +154,17 @@ footer {
     bottom: 0;
 }
 
-/* Media query for mobile view */
+
 @media (max-width: 768px) {
     #home-skills {
-        flex-direction: row; /* Keep elements side by side */
-        flex-wrap: wrap; /* Allow wrapping if needed */
-        padding: 20px; /* Adjust padding for mobile view */
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
     }
 
     .image-content {
         width: 100%;
-        padding-bottom: 20px; /* Add some space below the image */
+        padding-bottom: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,9 +176,9 @@ footer {
     }
 
     .image-content img {
-        width: 150px; /* Set a fixed width */
-        height: 150px; /* Set a fixed height to make it a square */
-        object-fit: cover; /* Ensure the image covers the area without distortion */
-        border-radius: 50%; /* Make the image a circle */
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
     }
 }
