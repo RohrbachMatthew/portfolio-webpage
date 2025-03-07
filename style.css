@@ -162,10 +162,11 @@ footer {
     }
 
     nav ul li {
-        font-size: 18px; /* Reduce font size */
+        font-size: 8px; /* Reduce font size */
         margin: 5px 10px; /* Adjust margin */
     }
 
+    
 
     #home-skills {
         flex-direction: row;
