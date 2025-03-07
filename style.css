@@ -156,6 +156,10 @@ footer {
 
 
 @media (max-width: 768px) {
+    .title {
+        font-size: 18px;
+    }
+    
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
