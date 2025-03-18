@@ -57,11 +57,13 @@ main {
 #home-skills {
     display: flex;
     background-color: #f0f0f0;
-    padding: 50px;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 5px;
     border: #f0f0f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     border: 2px solid #ccc;
-    border-radius: 35px;
+    border-radius: 25px;
     margin-bottom: 10px;
     background-image: url('home_skills_background1.jpg');
     background-size: cover;
@@ -69,6 +71,22 @@ main {
     min-height: 200px;
     box-sizing: border-box;
     flex-wrap: wrap;
+}
+
+#home h2 {
+    margin-bottom: 5px;
+}
+
+#home p {
+    margin-top: 0; /* Remove the top margin of the paragraph */
+}
+
+#skills h2 {
+    margin-bottom: -10px !important;
+}
+
+#skill p {
+    margin-top: 0px;
 }
 
 .text-content {
@@ -107,7 +125,9 @@ section {
     background-image: url('projects_background_home.jpg'); /* Replace with your background image URL */
     background-size: cover; /* Ensure the background image covers the entire area */
     background-position: center; /* Center the background image */
-    padding: 20px; /* Add padding inside the box */
+    padding: 30px; /* Add padding inside the box */
+    padding-top: 0px;
+    padding-bottom: 5px;
     border: 2px solid #ccc; /* Add a border around the box */
     border-radius: 35px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
@@ -115,8 +135,13 @@ section {
     color: whitesmoke;
 }
 
-.project1 {
-    color: whitesmoke;
+#projects h1 {
+    margin-bottom: 5px; /* Reduce the margin below the heading */
+}
+
+#project1 {
+    margin-bottom: 100px;
+    
 }
 
 .project2 {
@@ -127,11 +152,12 @@ section {
     color: whitesmoke;
 }
 
+
 #contact {
     background-image:  url('home_skills_background.jpg'); /* Replace with your background image URL */
     background-size: cover; /* Ensure the background image covers the entire area */
     background-position: center; /* Center the background image */
-    padding: 20px; /* Add padding inside the box */
+    padding: 30px; /* Add padding inside the box */
     border: 2px solid #ccc; /* Add a border around the box */
     border-radius: 15px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
@@ -139,6 +165,9 @@ section {
     padding-bottom: 1px;
     color: black;
 }
+
+
+
 .back_home {
     color: blue;
     text-align: center;

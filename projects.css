@@ -1,0 +1,141 @@
+/* projects.css */
+
+/* Set the background color for the projects page */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    background-image: url('nav_banner_home.jpg'); 
+    background-size: cover;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease; 
+}
+
+nav ul li a:hover {
+    color: rgb(60, 156, 207); /* Change to the highlight color you prefer */
+}
+
+/* Style the main content */
+main {
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+/* Style the projects section */
+#projects {
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+#projects h1 {
+    margin-bottom: 15px;
+}
+
+#project1 {
+    color: whitesmoke;
+    margin-top: 0px;
+}
+
+.project2 {
+    color: whitesmoke;
+}
+
+.project3 {
+    color: whitesmoke;
+}
+
+.projectlink {
+    display: inline-block; /* Ensure the link is displayed inline-block */
+    margin-bottom: 10px; /* Add space below the project link */
+}
+
+#project1 a[download] {
+    display: inline-block; /* Ensure the download link is displayed inline-block */
+    margin-top: 10px; /* Add space above the download link */
+    font-size: 15px;
+}
+
+#line {
+    margin: 20px;
+    border: none;
+    height: 1px;
+    background-color: red;
+}
+
+
+/* Style the footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+    .title {
+        font-size: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        font-size: 15px; /* Reduce font size */
+        margin: 5px 10px; /* Adjust margin */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #projects {
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
