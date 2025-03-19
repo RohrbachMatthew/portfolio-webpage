@@ -76,6 +76,7 @@ main {
 
 #home h2 {
     margin-bottom: 5px;
+    font-size: 30px;
 }
 
 #home p {
@@ -84,6 +85,7 @@ main {
 
 #skills h2 {
     margin-bottom: -10px !important;
+    font-size: 30px;
 }
 
 #skill p {
@@ -140,6 +142,7 @@ section {
 #projects h1 {
     color:black;
     margin-bottom: 5px;
+    font-size: 30px;
 }
 
 #projects h3 {

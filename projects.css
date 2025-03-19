@@ -1,15 +1,14 @@
-/* projects.css */
-
-/* Set the background color for the projects page */
 body {
     background-color: black;
     font-family: Arial, sans-serif;
     color: whitesmoke;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the content fills the available space */
 }
 
-/* Style the header and navigation */
 header {
     background: #333;
     color: #fff;
@@ -48,74 +47,91 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(60, 156, 207); /* Change to the highlight color you prefer */
+    color: rgb(60, 156, 207);
 }
 
-/* Style the main content */
 main {
+    flex: 1;
     padding: 15px;
-    margin-bottom: 50px;
-
+    margin-bottom: 0; /* Remove bottom margin */
 }
 
-/* Style the projects section */
 #projects {
+    background-image: url(project_background_matrix.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
     padding: 30px;
     border: 2px solid #ccc;
-    border-radius: 35px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.271);
+    margin-bottom: 0; /* Remove bottom margin */
+    color: rgb(255, 255, 255);
 }
 
 #projects h1 {
+    color: whitesmoke;
     margin-bottom: 15px;
 }
 
-#project1 {
+#projects p {
     color: whitesmoke;
-    margin-top: 0px;
+    margin-bottom: 15px; /* Add space between paragraphs */
 }
 
-.project2 {
-    color: whitesmoke;
+.project-container {
+    display: flex;
+    justify-content: center; /* Center the boxes */
+    gap: 50px; /* Space between the boxes */
+    max-width: 100%; /* Set a maximum width for the container */
+    margin: 20px; /* Center the container */
 }
 
-#project3 {
-    color: whitesmoke;
+.project-box {
+    flex: 1;
+    max-width: 30%; /* Set the maximum width of each box */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.3); /* Increase transparency by lowering the opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.projectlink {
-    display: inline-block; /* Ensure the link is displayed inline-block */
+.project-box h2 {
+    font-size: 24px;
+    margin: 10px 0; /* Add space above and below the title */
+}
+
+.project-box p {
+    font-size: 16px;
+    margin: 0px 0; /* Add space above and below the paragraphs */
+}
+
+#projectlink {
+    display: inline-block;
+    margin-top: 1px; /* Add space above the project link */
     margin-bottom: 10px; /* Add space below the project link */
+    margin-left: 10px;
+    font-size: 17px;
 }
 
-#project1 a[download] {
-    display: inline-block; /* Ensure the download link is displayed inline-block */
-    margin-top: 10px; /* Add space above the download link */
-    font-size: 15px;
+#documentation {
+    display: inline-block;
+    margin-bottom: 10px; /* Add space below the download link */
+    margin-left: 10px;
+    font-size: 17px;
 }
 
-#line {
-    margin: 20px;
-    border: none;
-    height: 1px;
-    background-color: red;
-}
-
-
-/* Style the footer */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 8px;
-    position: fixed;
+    padding: 5px;
+    position: relative;
     width: 100%;
     bottom: 0;
+    margin-top: auto; /* Push the footer to the bottom */
 }
 
-/* Media queries for mobile responsiveness */
 @media (max-width: 768px) {
     .title {
         font-size: 15px;
@@ -127,8 +143,8 @@ footer {
     }
 
     nav ul li {
-        font-size: 15px; /* Reduce font size */
-        margin: 5px 10px; /* Adjust margin */
+        font-size: 15px;
+        margin: 5px 10px;
     }
 
     main {
@@ -138,5 +154,9 @@ footer {
     #projects {
         padding: 20px;
         border-radius: 20px;
+    }
+
+    .project-container {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
     }
 }
