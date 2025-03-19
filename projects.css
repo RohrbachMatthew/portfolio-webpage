@@ -55,6 +55,7 @@ nav ul li a:hover {
 main {
     padding: 15px;
     margin-bottom: 50px;
+
 }
 
 /* Style the projects section */
@@ -80,7 +81,7 @@ main {
     color: whitesmoke;
 }
 
-.project3 {
+#project3 {
     color: whitesmoke;
 }
 

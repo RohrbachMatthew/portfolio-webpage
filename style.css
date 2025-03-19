@@ -35,7 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    font-size:25px;
+    font-size: 25px;
     margin: 0 20px;
 }
 
@@ -60,6 +60,7 @@ main {
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 5px;
+    padding-left: 25px;
     border: #f0f0f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     border: 2px solid #ccc;
@@ -78,7 +79,7 @@ main {
 }
 
 #home p {
-    margin-top: 0; /* Remove the top margin of the paragraph */
+    margin-top: 0;
 }
 
 #skills h2 {
@@ -122,51 +123,95 @@ section {
 }
 
 #projects {
-    background-image: url('projects_background_home.jpg'); /* Replace with your background image URL */
-    background-size: cover; /* Ensure the background image covers the entire area */
-    background-position: center; /* Center the background image */
-    padding: 30px; /* Add padding inside the box */
+    background-image: url('projects_background_home.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
     padding-top: 0px;
     padding-bottom: 5px;
-    border: 2px solid #ccc; /* Add a border around the box */
-    border-radius: 35px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    margin-bottom: 10px; /* Add some space below the section */
+    padding-left: 25px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
     color: whitesmoke;
 }
 
 #projects h1 {
-    margin-bottom: 5px; /* Reduce the margin below the heading */
+    color:black;
+    margin-bottom: 5px;
 }
 
-#project1 {
-    margin-bottom: 100px;
-    
+#projects h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-.project2 {
+#keyProjectsP {
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+#projects ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+
+.project-title {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.project-title2 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+.project-link {
+    color:white;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 27px;
+    padding: 0;
+    display: inline;
+    vertical-align: top;
+}
+
+#project1 a {
+    display: block; /* Ensure the link is displayed as a block element */
+    margin-top: 0; /* Remove any top margin */
+    padding-top: 0; /* Remove any top padding */
+}
+
+.project-description {
     color: whitesmoke;
-}
-
-.project3 {
-    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 27px;
+    margin-top: 1px;
 }
 
 
 #contact {
-    background-image:  url('home_skills_background.jpg'); /* Replace with your background image URL */
-    background-size: cover; /* Ensure the background image covers the entire area */
-    background-position: center; /* Center the background image */
-    padding: 30px; /* Add padding inside the box */
-    border: 2px solid #ccc; /* Add a border around the box */
-    border-radius: 15px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    margin-bottom: 1rem; /* Add some space below the section */
+    background-image: url('home_skills_background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
     padding-bottom: 1px;
     color: black;
 }
-
-
 
 .back_home {
     color: blue;
@@ -183,7 +228,6 @@ footer {
     bottom: 0;
 }
 
-
 @media (max-width: 768px) {
     .title {
         font-size: 15px;
@@ -195,11 +239,9 @@ footer {
     }
 
     nav ul li {
-        font-size: 15px; /* Reduce font size */
-        margin: 5px 10px; /* Adjust margin */
+        font-size: 15px;
+        margin: 5px 10px;
     }
-
-    
 
     #home-skills {
         flex-direction: row;
