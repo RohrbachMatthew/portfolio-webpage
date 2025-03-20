@@ -159,4 +159,9 @@ footer {
     .project-container {
         flex-direction: column; /* Stack boxes vertically on smaller screens */
     }
+
+    .project-box {
+        max-width: 100%; /* Make boxes full width on smaller screens */
+        margin-bottom: 20px; /* Add space between boxes */
+    }
 }
