@@ -112,6 +112,7 @@ main {
     margin-bottom: 10px; /* Add space below the project link */
     margin-left: 10px;
     font-size: 17px;
+    color: blue;
 }
 
 #documentation {
@@ -119,6 +120,7 @@ main {
     margin-bottom: 10px; /* Add space below the download link */
     margin-left: 10px;
     font-size: 17px;
+    color: blue;
 }
 
 footer {
