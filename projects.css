@@ -145,7 +145,6 @@ main {
     max-width: 15%; /* Adjust the width as needed */
     word-wrap: break-word; /* Ensure the text wraps correctly */
     margin: 0px 0; /* Add some margin around the paragraph */
-    margin-left: -125px;
     color: whitesmoke; /* Ensure the text color matches the design */
 }
 
