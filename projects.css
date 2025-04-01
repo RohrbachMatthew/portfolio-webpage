@@ -68,6 +68,30 @@ main {
     color: rgb(255, 255, 255);
 }
 
+/*Projects Banner*/
+.banner {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, rgba(173, 216, 230, 0), rgba(18, 18, 196, 0.300) 48%, rgba(18, 18, 196, 0.300) 15%, rgba(173, 216, 230, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner-title {
+    color: whitesmoke; /* White text color */
+    font-size: 45px;
+    padding: 20px 20px; /* Adjust padding as needed */
+
+}
+
 #projects h1 {
     color: whitesmoke;
     margin-bottom: 15px;
@@ -78,6 +102,37 @@ main {
     margin-bottom: 15px; /* Add space between paragraphs */
 }
 
+.mysql-logo-container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between the image and text */
+    margin: 20px; /* Add some margin around the container */
+    margin-top: 5px;
+    margin-left: 0;
+
+}
+
+.mysql-image {
+    width: 120px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+}
+
+.mysql-title {
+    color: whitesmoke; /* Set the text color */
+    font-size: 23px; /* Set the font size */
+    margin-left: 25px;
+}
+
+.mysql-background {
+    width: 50%;
+    height: 45px; /* Adjust height as needed */
+    background: linear-gradient(to right, rgba(0, 3, 17, 0.744), rgba(0, 0, 255, 0));
+    display: flex;
+    align-items: center;
+    padding: 4px; /* Adjust padding as needed */
+}
+
 .project-container {
     display: flex;
     justify-content: center; /* Center the boxes */
@@ -85,6 +140,15 @@ main {
     max-width: 100%; /* Set a maximum width for the container */
     margin: 20px; /* Center the container */
 }
+
+.project-section-description {
+    max-width: 15%; /* Adjust the width as needed */
+    word-wrap: break-word; /* Ensure the text wraps correctly */
+    margin: 0px 0; /* Add some margin around the paragraph */
+    margin-left: -125px;
+    color: whitesmoke; /* Ensure the text color matches the design */
+}
+
 
 .project-box {
     flex: 1;
@@ -121,6 +185,19 @@ main {
     margin-left: 10px;
     font-size: 17px;
     color: blue;
+}
+
+.line-text {
+    font-size: 30px;
+    color: blue !important;
+}
+
+.project-hr {
+    border: none; /* Remove the default border */
+    height: 5px; /* Set the height of the line */
+    background-color: #0e1a76b3; /* Change the color of the line */
+    margin-top: 45px; /* Add space above and below the line */
+    margin-bottom: 0;
 }
 
 footer {
