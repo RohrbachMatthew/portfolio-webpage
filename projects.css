@@ -141,14 +141,6 @@ main {
     margin: 20px; /* Center the container */
 }
 
-.project-section-description {
-    max-width: 15%; /* Adjust the width as needed */
-    word-wrap: break-word; /* Ensure the text wraps correctly */
-    margin: 0px 0; /* Add some margin around the paragraph */
-    color: whitesmoke; /* Ensure the text color matches the design */
-}
-
-
 .project-box {
     flex: 1;
     max-width: 30%; /* Set the maximum width of each box */
