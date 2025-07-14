@@ -114,10 +114,10 @@ main {
 }
 
 .image-content img[src="1fake_picture.jpg"] {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 section {
@@ -136,7 +136,7 @@ section {
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 #projects h1 {
@@ -180,7 +180,7 @@ section {
 }
 
 .project-link {
-    color:white;
+    color:lightblue;
     font-size: 15px;
     margin: 0;
     margin-left: 27px;
@@ -196,7 +196,7 @@ section {
 }
 
 .project-description {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     margin-left: 27px;
     margin-top: 1px;

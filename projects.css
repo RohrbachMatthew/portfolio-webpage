@@ -1,3 +1,8 @@
+a:visited {
+    color: blue; /* Or choose a consistent color for unvisited and visited links */
+}
+
+
 body {
     background-color: black;
     font-family: Arial, sans-serif;
@@ -113,7 +118,7 @@ main {
 }
 
 .mysql-image {
-    width: 120px; /* Set the desired width */
+    width: 100px; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
 }
@@ -138,16 +143,16 @@ main {
     justify-content: center; /* Center the boxes */
     gap: 50px; /* Space between the boxes */
     max-width: 100%; /* Set a maximum width for the container */
-    margin: 20px; /* Center the container */
+    margin: 50px; /* Center the container */
 }
 
 .project-box {
     flex: 1;
-    max-width: 30%; /* Set the maximum width of each box */
+    max-width: 50%; /* Set the maximum width of each box */
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.3); /* Increase transparency by lowering the opacity */
+    background-color: rgba(0, 0, 0, 0.4); /* Increase transparency by lowering the opacity */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -158,12 +163,13 @@ main {
 
 .project-box p {
     font-size: 16px;
-    margin: 0px 0; /* Add space above and below the paragraphs */
+    margin: 15px 0; /* Add space above and below the paragraphs */
 }
+
 
 #projectlink {
     display: inline-block;
-    margin-top: 1px; /* Add space above the project link */
+    margin-top: 10px; /* Add space above the project link */
     margin-bottom: 10px; /* Add space below the project link */
     margin-left: 10px;
     font-size: 17px;
@@ -172,7 +178,7 @@ main {
 
 #documentation {
     display: inline-block;
-    margin-bottom: 10px; /* Add space below the download link */
+    margin-bottom: 20px; /* Add space below the download link */
     margin-left: 10px;
     font-size: 17px;
     color: blue;
